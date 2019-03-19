@@ -34,11 +34,15 @@ local current_nth_tick = settings_nth_tick
 local upgrade_pairs =  {["locomotive"]="locomotive-mu",
 						["heavy-locomotive"]="heavy-locomotive-mu", 
 						["express-locomotive"]="express-locomotive-mu",
-						["nuclear-locomotive"]="nuclear-locomotive-mu"}
+						["nuclear-locomotive"]="nuclear-locomotive-mu",
+						["ret-electric-locomotive"]="ret-electric-locomotive-mu",
+						["ret-electric-locomotive-mk2"]="ret-electric-locomotive-mk2-mu"}
 local downgrade_pairs = {["locomotive-mu"]="locomotive",
 						["heavy-locomotive-mu"]="heavy-locomotive", 
 						["express-locomotive-mu"]="express-locomotive",
-						["nuclear-locomotive-mu"]="nuclear-locomotive"}
+						["nuclear-locomotive-mu"]="nuclear-locomotive",
+						["ret-electric-locomotive-mu"]="ret-electric-locomotive",
+						["ret-electric-locomotive-mk2-mu"]="ret-electric-locomotive-mk2"}
 						
 
 ------------------------- FUEL BALANCING CODE --------------------------------------
