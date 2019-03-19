@@ -7,5 +7,5 @@
   "contact": "",
   "homepage": "https://github.com/robot256/MultipleUnitTrainControl",
   "description": "Replaces bidirectional trains with ones twice as powerful, to simulate real locomotives driving backwards.\nIntegrated with Train & Fuel Overhaul",
-  "dependencies": ["base >= 0.17.0", "?TrainOverhaul >= 0.2.4"]
+  "dependencies": ["base >= 0.17.0", "?TrainOverhaul >= 0.2.4", "?Realistic_Electric_Trains >= 0.3.1"]
 }
